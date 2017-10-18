@@ -1,0 +1,369 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+  line-height: 1.5em;
+  background-color: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dd,
+dl,
+dt,
+li,
+ol,
+ul,
+fieldset,
+form,
+label,
+legend,
+button,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  line-height: 1;
+  font-family: inherit;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+}
+ol,
+ul {
+  list-style: none;
+}
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: "";
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a:focus {
+  outline: none;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+audio:not([controls]) {
+  display: none;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+button,
+input {
+  border: 1px solid;
+  outline: none;
+  line-height: normal;
+  *overflow: visible;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+strong {
+  font-weight: bold;
+}
+::selection {
+  background: #5cc9e8;
+  color: #ffffff;
+  text-shadow: none;
+}
+::-moz-selection {
+  background: #72d0eb;
+  color: #ffffff;
+  text-shadow: none;
+}
+html,
+body {
+  background: #ffffff;
+}
+body {
+  padding: 0;
+}
+#header {
+  position: fixed;
+  top: 35px;
+  left: 35px;
+}
+#header #title {
+  float: left;
+  width: 230px;
+  height: 80px;
+}
+#header #title a {
+  float: left;
+  width: 50px;
+  color: #ed4889;
+  font-size: 2.6em;
+  font-family: "Arial Rounded MT Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#header #menu ul {
+  width: 230px;
+  margin: 0;
+}
+#header #menu ul li {
+  float: left;
+  width: 100%;
+  font-size: 1.1em;
+  margin: 0 0 3px 0;
+}
+#header #menu ul li a {
+  display: inline-block;
+  padding: 3px;
+  color: #000000;
+  -khtml-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+#header #menu ul li a:hover {
+  background: #fd018c;
+  color: #ffffff;
+}
+#header #menu ul li#about a {
+  color: #fd018c;
+}
+#header #menu ul li#about a:hover {
+  color: #ffffff;
+}
+#header #menu ul li.active a {
+  background: #000000;
+  color: #ffffff !important;
+}
+#header #menu ul li.active a:hover {
+  background: #fd018c;
+}
+#main {
+  float: left;
+  width: 705px;
+  margin: 120px 0 50px 35px;
+}
+#main .view a.project,
+#main .page-content a.project {
+  float: left;
+  width: 200px;
+  margin: 0 35px 0 0;
+  text-align: center;
+  height: 190px;
+}
+#main .view a.project .thumbnail,
+#main .page-content a.project .thumbnail {
+  float: left;
+  width: 200px;
+  margin: 0 0 10px 0;
+}
+#main .view a.project .thumbnail img,
+#main .page-content a.project .thumbnail img {
+  float: left;
+  width: 200px;
+  height: 134px;
+  -khtml-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+#main .view a.project .details,
+#main .page-content a.project .details {
+  display: inline-block;
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.1em;
+  padding: 3px;
+  -khtml-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+#main .view a.project:hover .details,
+#main .page-content a.project:hover .details {
+  color: #ffffff;
+  background: #fd018c;
+}
+#main #content {
+  float: left;
+}
+#main #content .pageText p,
+#main #content .view .textblock p {
+  float: left;
+  width: 560px;
+  font-size: 1.25em;
+  color: #555555;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+#main #content .pageText p a,
+#main #content .view .textblock p a {
+  color: #fd018c;
+}
+#main #content .pageText p a:hover,
+#main #content .view .textblock p a:hover {
+  color: #f30186;
+  text-decoration: underline;
+}
+#main #content .view {
+  float: left;
+  width: 670px;
+  padding: 0 0 20px 0;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #cccccc;
+}
+#main #content .view .projectInfo,
+#main #content .view .textblock,
+#main #content .view .fileGroup {
+  float: left;
+  width: 670px;
+}
+#main #content .view .projectInfo h1 {
+  float: left;
+  width: 100%;
+  margin: 0 0 20px 0;
+  font-family: Georgia, Helvetica, Arial;
+  color: #cccccc;
+  font-style: italic;
+  font-size: 1.7em;
+}
+#main #content .view .fileGroup.slideshow {
+  margin-bottom: 20px;
+}
+#main #content .view .fileGroup.slideshow .slideshow-nav {
+  float: left;
+  width: 100%;
+  margin: 0 0 10px 0;
+  color: #cccccc;
+}
+#main #content .view .fileGroup.slideshow .slideshow-nav a {
+  font-size: 1.1em;
+  color: #000000;
+  text-decoration: underline;
+}
+#main #content .view .fileGroup.slideshow .slideshow-nav a:hover {
+  background: #fd018c;
+  color: #ffffff;
+  text-decoration: none;
+}
+#main #content .view .fileGroup.slideshow .slides {
+  float: left;
+  width: 670px;
+  height: 424px;
+  overflow: hidden;
+}
+#main #content #singlePage .view {
+  border: none;
+  width: 100%;
+}
