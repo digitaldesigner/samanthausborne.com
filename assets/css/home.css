@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 62.5%;
+  letter-spacing: 0.02em;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
+  background-color: white;
+}
+h1,
+h2,
+h3,
+p,
+blockquote,
+a,
+em,
+small,
+li,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  line-height: 1;
+  font-family: inherit;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote:before,
+blockquote:after {
+  content: "";
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a:focus,
+a:hover,
+a:active {
+  outline: 0;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+em {
+  font-style: italic;
+}
+body,
+html {
+  background: white;
+}
+body {
+  padding: 0 5%;
+}
+.container {
+  margin: 10% auto;
+  width: 80%;
+  transition: width 0.3s;
+  -webkit-transition: width 0.3s;
+  -moz-transition: width 0.3s;
+  color: #27262c;
+}
+.container h1,
+.container h2 {
+  margin: 0;
+  float: left;
+  width: 70%;
+  max-width: 600px;
+  clear: both;
+  font-size: 3.5em;
+  line-height: 1.6em;
+}
+.container h1 span,
+.container h2 span {
+  color: #ed4889;
+}
+.container h1 span.highlight,
+.container h2 span.highlight {
+  display: inline-block;
+  color: inherit;
+  background: #fee4ef;
+  margin-left: -10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.container h1 a,
+.container h2 a {
+  color: inherit;
+  border-bottom: 2px solid #ed4889;
+}
+.container h1 a:hover,
+.container h2 a:hover {
+  color: #ed4889;
+}
+.container h2 {
+  margin: 50px 0;
+  font-size: 2em;
+}
+.container h2 em {
+  font-style: normal;
+  font-size: 1.3em;
+}
+@media screen and (max-width: 1000px) {
+  html .container,
+  body .container {
+    width: 90%;
+  }
+  html .container h1,
+  body .container h1 {
+    width: 90%;
+    max-width: 90%;
+  }
+  html .container h1 span.highlight,
+  body .container h1 span.highlight {
+    margin-top: 25px;
+    background: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  html .container h1,
+  body .container h1 {
+    font-size: 3em;
+  }
+}
