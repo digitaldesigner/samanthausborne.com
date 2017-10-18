@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "The Key Private Portfolio"
+AuthUserFile /home/buzzusborne/samanthausborne.com/thekey/.htpasswd
+Require valid-user
+
+
+ErrorDocument 401 /401.php
