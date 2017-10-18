@@ -1,2 +1,4 @@
-# samanthausborne.com
-The portfolio of Samantha Usborne
+# Samantha Usborne
+Graphic Designer
+
+Portfolio website of Samantha Usborne
