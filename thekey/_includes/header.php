@@ -27,6 +27,8 @@
 	<script type="text/javascript" src="//use.typekit.net/dlu2bpa.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<meta name="viewport" content="width=320,initial-scale=1.0" />
+	<script src="<?=path?>_assets/js/jquery.min.js"></script>
+	<script>window.showImg = function(obj) {$(obj).delay(100).fadeTo(650,1,function(){$(obj).removeClass();});}</script>
 </head>
 <body<?php if(isset($bodyclass)){ echo " class=\"".$bodyclass."\""; }?>>
 	<div class="container">

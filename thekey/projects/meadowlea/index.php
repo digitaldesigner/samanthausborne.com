@@ -9,7 +9,7 @@
 	</div>
 	
 	<div class="fullImage">
-		<img src="img/Large-file-Meadowlea-01.jpg" />
+		<img onload="showImg(this)" class="first" src="img/Large-file-Meadowlea-01.jpg" />
 		<img src="img/Large-file-Meadowlea-02.jpg" />
 		<img src="img/Large-file-Meadowlea-03.jpg" />
 		<img src="img/Large-file-Meadowlea-04.jpg" />

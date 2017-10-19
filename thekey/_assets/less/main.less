@@ -207,6 +207,8 @@ ol.mobileView {
 		display:inline-block;
 		width:auto;
 		max-width:100%;
+		max-height:98vh;
+		clear:both;
 		
 		&.spacer {
 			margin-top:20px;
@@ -226,6 +228,10 @@ ol.mobileView {
 		
 		&.scrollout {
 			opacity:0.7;
+		}
+		
+		&.first {
+			opacity:0;
 		}
 	}
 	
@@ -955,6 +961,7 @@ dl.outro {
       padding:0px 5px;
       margin:0 0 15px 0;
       .title(2.6em);
+	  font-weight:500;
       color:white;
       display:inline-block;
       border-bottom:2px solid transparent;
@@ -978,7 +985,7 @@ dl.outro {
 ol.nav {
   float:left;
   width:60%;
-  margin:0 20%;
+  margin:0 20% 100px;
   padding:0;
   list-style:none;
   
@@ -998,6 +1005,11 @@ ol.nav {
         border-bottom:2px solid @link;
       }
       
+	  span {
+		  font-weight:400;
+		  font-size:80%;
+	  }
+	  
       &:hover {
         strong {
           border-bottom-color:@linkhover;
