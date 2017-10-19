@@ -397,6 +397,12 @@ ol.mobileView li img {
 .fullImage img.first {
   opacity: 0;
 }
+.fullImage.grid img {
+  float: left;
+  width: 50%;
+  margin: 0;
+  clear: none;
+}
 .fullImage.placeholder {
   background: #f4f4f5;
   height: 450px;
@@ -1196,7 +1202,36 @@ dl.outro .right {
   color: #00aadd;
   border-color: #00aadd;
 }
+a.grid {
+  z-index: 1;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 20px;
+  border: 30px solid transparent;
+  text-align: center;
+  opacity: 0.5;
+  transition: all 0.2s linear;
+  max-height: 20px;
+  overflow: hidden;
+}
+a.grid span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin: 0 0px 0px 2px;
+  overflow: hidden;
+  background: #a5b3be;
+  transition: width 0.3s ease-in-out;
+}
+a.grid.vert span {
+  width: 18px;
+}
+a.grid:hover {
+  opacity: 1;
+}
 .modal {
+  z-index: 2;
   position: fixed;
   top: 0;
   left: 0;
