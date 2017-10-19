@@ -402,6 +402,7 @@ ol.mobileView li img {
   width: 50%;
   margin: 0;
   clear: none;
+  cursor: pointer;
 }
 .fullImage.placeholder {
   background: #f4f4f5;
