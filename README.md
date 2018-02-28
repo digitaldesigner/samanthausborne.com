@@ -1,4 +1,4 @@
-# Samantha Usborne
-Graphic Designer
+# Samantha Usborne — Graphic Designer
 
-Portfolio website of Samantha Usborne
+Hello I'm Sam Usborne, a freelance graphic designer specialising in packaging design.  
+[LinkedIn](https://www.linkedin.com/in/ipackagethings)
